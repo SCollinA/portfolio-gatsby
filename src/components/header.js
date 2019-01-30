@@ -1,8 +1,9 @@
-// import { Link } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
+import Img from 'gatsby-image'
 
-import NavLink from '../components/navLink'
+import NavLink from './navLink'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -35,6 +36,20 @@ const Header = ({ siteTitle }) => (
           {'Go to page 2'}
         </NavLink>
     </h1>
+    <StaticQuery
+      query={graphql`
+        query {
+          file: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+            childImageSharp {
+              fixed {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+      `}
+      render={data => <Img fixed={data.file.childImageSharp.fixed} />}
+    />
   </div>
 )
 
