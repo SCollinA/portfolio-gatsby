@@ -3,15 +3,16 @@ import { Link } from 'gatsby'
 
 export default function NavLink(props) { 
     return (
-        <Link
+        <Link 
         {...props}
         getProps={({ isCurrent }) => {
             // the object returned here is passed to the
             // anchor element's props
             return {
-            style: {
-                color: isCurrent ? "red" : "blue"
-            }
+                className: `NavLink${isCurrent ? ` isCurrent` : ``}`,
+                style: {
+                    color: isCurrent ? "lightsalmon" : "deepskyblue"
+                }
             };
         }}
         />

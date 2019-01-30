@@ -7,7 +7,23 @@ body {
 }
 
 a {
-    color: lightsalmon;
+    color: deepskyblue;
+}
+
+a:active, a:hover {
+    color: whitesmoke;
+}
+
+.NavLink {
+    color: deepskyblue;
+}
+
+.NavLink:hover {
+    color: whitesmoke!important;
+}
+
+.isCurrent {
+    color: lightcoral;
 }
 
 .Layout {
