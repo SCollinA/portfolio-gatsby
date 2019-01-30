@@ -1,16 +1,21 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
-
 
 export default function ProjectDiv(props) {
-    const {title, image, desc, link} = props
+    const {title, children, desc, link} = props
     return (
-        <div className='ProjectDiv'>
+        <div className='ProjectDiv'
+            style={{
+                backgroundColor: `lightcoral`,
+            }}
+        >
             {/* Title */}
+            <h3>{title}</h3>
             {/* Image */}
+            {children}
             {/* Description */}
+            <p>{desc}</p>
             {/* Link */}
+            <a href={link}>Live Demo!</a>
         </div>
     )
 }
