@@ -1,3 +1,8 @@
 /* body {
     background-image: url('../images/gatsby-astronaut.png')
 } */
+
+.Header > * {
+    display: flex;
+    justify-content: space-around;
+}

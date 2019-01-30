@@ -6,6 +6,7 @@ import NavLink from '../components/navLink'
 
 const Header = ({ siteTitle }) => (
   <div
+  className='Header'
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
@@ -37,7 +38,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
           >
-            Go to page 2
+            {'Go to page 2'}
           </NavLink>
       </h1>
     </div>
