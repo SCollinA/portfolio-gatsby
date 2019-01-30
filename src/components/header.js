@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { Link } from 'gatsby'
 
-import NavLink from './navLink'
+// import NavLink from './navLink'
 import SocialMediaLinks from './socialMediaLinks';
 
 const Header = ({ siteTitle }) => (
@@ -14,26 +15,28 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <h1 style={{ margin: 0 }}>
-      <NavLink
+      <Link
         to="/"
+        className='Link' activeClassName=' isCurrent'
         // style={{
         //   color: `white`,
         //   textDecoration: `none`,
         // }}
       >
         {siteTitle}
-      </NavLink>
+      </Link>
     </h1>
     <h1 style={{ margin: 0 }}>
-      <NavLink 
+      <Link 
         to="/page-2/"
+        className='Link' activeClassName=' isCurrent'
         // style={{
         //   color: `white`,
         //   textDecoration: `none`,
         // }}
         >
           {'Go to page 2'}
-        </NavLink>
+        </Link>
     </h1>
     <SocialMediaLinks/>
   </div>
