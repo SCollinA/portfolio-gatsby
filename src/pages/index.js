@@ -2,7 +2,6 @@ import React from 'react'
 // import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -12,11 +11,11 @@ library.add(faLinkedin, faTwitter, faGithub)
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ minWidth: `20%`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className='heroImage'>
+      <h3>welcome to Collin's portfolio</h3>
+    </div>
+    <div className='heroImage'>
+      <h3>welcome to Collin's portfolio</h3>
     </div>
   </Layout>
 )
