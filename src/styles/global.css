@@ -1,8 +1,23 @@
-/* body {
-    background-image: url('../images/gatsby-astronaut.png')
+/* html, body, #___gatsby, #___gatsby > div {
+    height: 100%;
 } */
+
+body {
+    background-image: url('../images/the_universe.jpg');
+}
+
+a {
+    color: lightsalmon;
+}
 
 .Header > * {
     display: flex;
     justify-content: space-around;
+}
+
+.Content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
