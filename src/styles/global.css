@@ -19,8 +19,10 @@ a:active, a:hover, .NavLink:hover {
 
 .isCurrent {
     color: lightcoral;
-    /* border-radius: 10%;
-    background-color: rgba(100, 200, 255, 0.25); */
+    padding: 2% 10%;
+    white-space: nowrap;
+    border-radius: 10px;
+    background-color: rgba(100, 200, 255, 0.25);
 }
 
 .Layout {
@@ -37,6 +39,18 @@ a:active, a:hover, .NavLink:hover {
 
 .SocialMediaLinks {
     color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Header social media links */
+.SocialMediaLinks > a {
+    padding: 0 20%;
+}
+
+/* footer social media links */
+.Footer > .SocialMediaLinks > a {
+    padding: 0 30%;
 }
 
 .Content {
