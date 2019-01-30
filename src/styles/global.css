@@ -47,6 +47,7 @@ a:active, a:hover, .NavLink:hover {
     align-items: baseline;
 }
 
-.Footer > div:first-child {
+.Footer > div:first-child, ::after {
     min-width: 80px;
+    border-radius: 50%;
 }

@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 import NavLink from './navLink'
+import SocialMediaLinks from './socialMediaLinks';
 
 const Header = ({ siteTitle }) => (
   <div
@@ -34,6 +35,7 @@ const Header = ({ siteTitle }) => (
           {'Go to page 2'}
         </NavLink>
     </h1>
+    <SocialMediaLinks/>
   </div>
 )
 
