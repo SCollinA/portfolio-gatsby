@@ -10,14 +10,21 @@ a {
     color: lightsalmon;
 }
 
+.Layout {
+    display: flex;
+    flex-direction: column;
+}
+
 .Header > * {
     display: flex;
     justify-content: space-around;
 }
 
 .Content {
+    flex: 1;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }

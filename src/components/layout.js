@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className='Layout'>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className='Content'
           // style={{
@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
         </div>
-      </>
+      </div>
     )}
   />
 )
