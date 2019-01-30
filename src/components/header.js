@@ -10,38 +10,31 @@ const Header = ({ siteTitle }) => (
     style={{
       // background: `rebeccapurple`,
       // marginBottom: `1.45rem`,
+      padding: `1.45rem 1.0875rem`,
     }}
   >
-    <div
-      style={{
-        // margin: `0 auto`,
-        // maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <NavLink
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+    <h1 style={{ margin: 0 }}>
+      <NavLink
+        to="/"
+        // style={{
+        //   color: `white`,
+        //   textDecoration: `none`,
+        // }}
+      >
+        {siteTitle}
+      </NavLink>
+    </h1>
+    <h1 style={{ margin: 0 }}>
+      <NavLink 
+        to="/page-2/"
+        // style={{
+        //   color: `white`,
+        //   textDecoration: `none`,
+        // }}
         >
-          {siteTitle}
+          {'Go to page 2'}
         </NavLink>
-      </h1>
-      <h1 style={{ margin: 0 }}>
-        <NavLink 
-          to="/page-2/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-          >
-            {'Go to page 2'}
-          </NavLink>
-      </h1>
-    </div>
+    </h1>
   </div>
 )
 

@@ -10,9 +10,9 @@ export default function NavLink(props) {
             // anchor element's props
             return {
                 className: `NavLink${isCurrent ? ` isCurrent` : ``}`,
-                style: {
-                    color: isCurrent ? "lightsalmon" : "deepskyblue"
-                }
+                // style: {
+                //     color: isCurrent ? "lightsalmon" : "deepskyblue"
+                // }
             };
         }}
         />

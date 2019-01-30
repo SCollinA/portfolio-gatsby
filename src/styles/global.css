@@ -6,24 +6,19 @@ body {
     background-image: url('../images/the_universe.jpg');
 }
 
-a {
+a, .NavLink {
     color: deepskyblue;
+    text-decoration: none;
 }
 
-a:active, a:hover {
-    color: whitesmoke;
-}
-
-.NavLink {
-    color: deepskyblue;
-}
-
-.NavLink:hover {
+a:active, a:hover, .NavLink:hover {
     color: whitesmoke!important;
+    background-color: rgba(0, 0, 0, 0.15)
 }
 
 .isCurrent {
     color: lightcoral;
+    background-color: rgba(0, 0, 0, 0.15)
 }
 
 .Layout {
@@ -31,14 +26,14 @@ a:active, a:hover {
     flex-direction: column;
 }
 
-.Header > * {
+.Header {
     display: flex;
     justify-content: space-around;
 }
 
 .Content {
-    flex: 1;
     color: white;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
