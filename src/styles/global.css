@@ -13,12 +13,14 @@ a, .NavLink {
 
 a:active, a:hover, .NavLink:hover {
     color: whitesmoke!important;
-    background-color: rgba(0, 0, 0, 0.15)
+    /* border-radius: 10%;
+    background-color: rgba(100, 200, 255, 0.25); */
 }
 
 .isCurrent {
     color: lightcoral;
-    background-color: rgba(0, 0, 0, 0.15)
+    /* border-radius: 10%;
+    background-color: rgba(100, 200, 255, 0.25); */
 }
 
 .Layout {
