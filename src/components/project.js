@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Project(props) {
-    const {title, children, desc, link} = props
+    const {title, children, desc, liveLink, gitHubLink} = props
     return (
         <div className='Project'>
             {/* Title */}
@@ -11,7 +11,8 @@ export default function Project(props) {
             {/* Description */}
             <p>{desc}</p>
             {/* Link */}
-            <a href={link}>Live Demo!</a>
+            <a rel='noopener noreferrer' target='_blank' href={liveLink}>Live Demo!</a>
+            <a rel='noopener noreferrer' target='_blank' href={gitHubLink}>GitHub Repo!</a>
         </div>
     )
 }

@@ -12,7 +12,8 @@ const TaskMagic = ({data}) => (
     <Project
       title='Task Magic'
       desc='This app was originally written for iOS, then migrated to a PERN stack. Its a todo app with nested todos ordered by priority.'
-      link='https://taskmagic.app'
+      liveLink='https://taskmagic.app'
+      gitHubLink='https://github.com/SCollinA/task-magic'
     >
       <Img fluid={data.image1.childImageSharp.fluid}/>
     </Project>

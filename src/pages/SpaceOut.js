@@ -11,8 +11,9 @@ const SpaceOut = ({data}) => (
     <SEO title="Space Out" />
     <Project
       title='Space Out'
-      desc='This app uses a simple API called "lookup" to get info on space object locations which can then be used to determine visibility.'
-      link='https://myspaceapp.collinargo.com'
+      desc='This app uses a simple API called "lookUP" to get info on space object locations which can then be used to determine visibility.'
+      liveLink='https://myspaceapp.collinargo.com'
+      gitHubLink='https://github.com/SCollinA/my-space-app'
     >
       <Img fluid={data.image4.childImageSharp.fluid}/>
     </Project>

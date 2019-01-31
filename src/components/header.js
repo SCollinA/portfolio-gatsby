@@ -14,9 +14,9 @@ const Header = ({ siteTitle }) => (
   >
     <NavLink to='/' text='Home'/>
     <NavLink to='/TaskMagic' text='Task Magic'/>
-    <NavLink to='/TeeTimes' text='TeeTimes'/>
+    <NavLink to='/TeeTimes' text='Tee Times'/>
     <NavLink to='/FFScheduler' text='FFScheduler'/>
-    <NavLink to='/SpaceOut' text='SpaceOut'/>
+    <NavLink to='/SpaceOut' text='Space Out'/>
   </div>
 )
 

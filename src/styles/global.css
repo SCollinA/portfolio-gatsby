@@ -76,6 +76,7 @@ a:active, a:hover, .NavLink:hover {
     color: whitesmoke;
     display: flex;
     justify-content: space-around;
+    z-index: 1;
 }
 
 /* Header social media links */
@@ -160,11 +161,13 @@ a:active, a:hover, .NavLink:hover {
 }
 
 .ProjectsGallery > a {
-    width: 50%;
-    padding: 10%;
+    width: 25%;
+    margin: 5%;
 }
+
 .ProjectsGallery > a > div {
     border-radius: 10px;
+    border: solid 5px deepskyblue;
 }
 
 .ProjectSample, .Project {

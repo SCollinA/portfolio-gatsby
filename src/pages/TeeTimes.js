@@ -12,7 +12,8 @@ const TeeTimes = ({data}) => (
     <Project
       title='Tee Times'
       desc='This app was built for use at a country club by members and staff to make and change tee time reservations.'
-      link='https://teetimes.collinargo.com'
+      liveLink='https://teetimes.collinargo.com'
+      gitHubLink='https://github.com/SCollinA/tee-times'
     >
       <Img fluid={data.image2.childImageSharp.fluid}/>
     </Project>
