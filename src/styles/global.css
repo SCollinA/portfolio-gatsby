@@ -162,7 +162,7 @@ a:active, a:hover, .NavLink:hover {
 
 .ProjectsGallery > a {
     width: 400px;
-    margin: 5%;
+    margin: 5% 5% 20%;
 }
 
 .ProjectsGallery > a > div {
@@ -171,7 +171,7 @@ a:active, a:hover, .NavLink:hover {
 }
 
 .ProjectSample, .Project {
-    margin: 10% 0 80%;
+    margin: 10% 0;
     padding: 2% 5%;
     background-color: whitesmoke;
     color: lightcoral;
