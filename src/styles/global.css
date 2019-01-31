@@ -106,8 +106,8 @@ a:active, a:hover, .NavLink:hover {
     width: calc(100% + 20px);
     overflow: auto;
     /* height: 90%; */
-    /* flex: 1;
-    display: flex;
+    flex: 1;
+    /* display: flex;
     flex-direction: column; */
 }
 
