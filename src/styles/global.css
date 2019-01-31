@@ -130,10 +130,6 @@ a:active, a:hover, .NavLink:hover {
     display: flex;
 }
 
-/* .heroDiv > * {
-    width: 50%;
-} */
-
 .heroTitle {
     margin: auto;
     max-width: 28%;
@@ -148,6 +144,20 @@ a:active, a:hover, .NavLink:hover {
 
 .heroImage > * {
     border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+    .heroDiv {
+        flex-direction: column;
+    }
+    
+    .heroTitle {
+        max-width: 75%;
+    }
+
+    .heroImage {
+        margin-top: 10%;
+    }
 }
 
 /* ========================== */
