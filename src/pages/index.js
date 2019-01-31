@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import HeroDiv from '../components/heroDiv'
-import ProjectsDiv from '../components/projectsDiv'
+import ProjectsGallery from '../components/projectsGallery'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HeroDiv />
-    {/* <ProjectsDiv images={[data.image1, data.image2, data.image3]}/> */}
+    <ProjectsGallery images={[data.image1, data.image2, data.image3]}/>
   </Layout>
 )
 

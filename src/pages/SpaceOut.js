@@ -4,18 +4,18 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ProjectDiv from '../components/projectDiv'
+import Project from '../components/project'
 
 const SpaceOut = ({data}) => (
   <Layout>
     <SEO title="Page two" />
-    <ProjectDiv
+    <Project
       title='Space Out'
-      desc='An app built by Evan and Collin'
+      descLong='An app built by Evan and Collin'
       link='https://teetimes.collinargo.com'
     >
       <Img fluid={data.image1.childImageSharp.fluid}/>
-    </ProjectDiv>
+    </Project>
   </Layout>
 )
 
@@ -25,7 +25,7 @@ export const query = () => {
   return graphql`
       query {
           image1: file(relativePath: { eq: "me.jpg" }) {
-            ...fluidImage
+            ...fluidImage 
           }
 
           image2: file(relativePath: { eq: "me.jpg" }) {
