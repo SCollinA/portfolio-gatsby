@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Project from '../components/project'
+import Project from '../components/projectSample'
 
 const SpaceOut = ({data}) => (
   <Layout>

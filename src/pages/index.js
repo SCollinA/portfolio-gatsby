@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HeroDiv />
-    <ProjectsGallery images={[data.image1, data.image2, data.image3]}/>
+    <ProjectsGallery images={[data.image1, data.image2, data.image3, data.image4]}/>
   </Layout>
 )
 
@@ -33,15 +33,19 @@ export const fluidImage = graphql`
 export const query = () => {
   return graphql`
       query {
-          image1: file(relativePath: { eq: "me.jpg" }) {
+          image1: file(relativePath: { eq: "task_magic_icon.png" }) {
             ...fluidImage
           }
 
-          image2: file(relativePath: { eq: "me.jpg" }) {
+          image2: file(relativePath: { eq: "tee_hole.png" }) {
             ...fluidImage
           }
           
-          image3: file(relativePath: { eq: "me.jpg" }) {
+          image3: file(relativePath: { eq: "Sample824.png" }) {
+            ...fluidImage
+          }
+          
+          image4: file(relativePath: { eq: "CaveNebula.jpg" }) {
             ...fluidImage
           }
       }
