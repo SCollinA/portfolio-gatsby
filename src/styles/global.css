@@ -132,6 +132,14 @@ a:active, a:hover, .NavLink:hover {
     text-align: center;
 }
 
+.ProjectDiv > a {
+    width: fit-content;
+}
+
+.ProjectDiv > a:hover {
+    color: springgreen!important;
+}
+
 /* ========================== */
 /*      Footer Things         */
 /* ========================== */
