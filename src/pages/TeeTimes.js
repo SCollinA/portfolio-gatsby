@@ -4,14 +4,14 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Project from '../components/projectSample'
+import Project from '../components/project'
 
 const TeeTimes = ({data}) => (
   <Layout>
     <SEO title="Page two" />
     <Project
       title='Tee Times'
-      descLong='An app built by Evan and Collin'
+      desc='This app was built for use at a country club by members and staff to make and change tee time reservations.'
       link='https://teetimes.collinargo.com'
     >
       <Img fluid={data.image1.childImageSharp.fluid}/>

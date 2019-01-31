@@ -162,14 +162,14 @@ a:active, a:hover, .NavLink:hover {
     border-radius: 10px;
 }
 
-.ProjectSample {
+.ProjectSample, .Project {
     margin: 10% 0 80%;
     padding: 2% 0;
     background-color: whitesmoke;
     color: lightcoral;
 }
 
-.ProjectSample > * {
+.ProjectSample > *, .Project > * {
     display: block;
     margin: auto;
     padding: 5% 0;
@@ -179,17 +179,37 @@ a:active, a:hover, .NavLink:hover {
 }
 
 /* this is the image */
-.ProjectSample > div:nth-child(2) {
+.ProjectSample > div:nth-child(2), .Project > div:nth-child(2) {
     max-width: 500px;
 }
 
-.ProjectSample > a {
+.ProjectSample > a, .Project > a {
     width: fit-content;
 }
 
-.ProjectSample > a:hover {
+.ProjectSample > a:hover, .Project > a:hover {
     color: springgreen!important;
 }
+
+/* ========================== */
+/*      Project Things        */
+/* ========================== */
+
+/* ========================== */
+/*      Task Magic Things         */
+/* ========================== */
+
+/* ========================== */
+/*      Tee Times Things         */
+/* ========================== */
+
+/* ========================== */
+/*      FFScheduler Things         */
+/* ========================== */
+
+/* ========================== */
+/*      Space Out Things         */
+/* ========================== */
 
 /* ========================== */
 /*      Footer Things         */

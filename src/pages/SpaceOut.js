@@ -4,15 +4,15 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Project from '../components/projectSample'
+import Project from '../components/project'
 
 const SpaceOut = ({data}) => (
   <Layout>
     <SEO title="Page two" />
     <Project
       title='Space Out'
-      descLong='An app built by Evan and Collin'
-      link='https://teetimes.collinargo.com'
+      desc='This app uses a simple API called "lookup" to get info on space object locations which can then be used to determine visibility.'
+      link='https://myspaceapp.collinargo.com'
     >
       <Img fluid={data.image1.childImageSharp.fluid}/>
     </Project>
