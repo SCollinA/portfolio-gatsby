@@ -28,6 +28,18 @@ const Header = ({ siteTitle }) => (
     </h1>
     <h1 style={{ margin: 0 }}>
       <Link 
+        to="/SpaceOut"
+        className='Link' activeClassName=' isCurrent'
+        // style={{
+        //   color: `white`,
+        //   textDecoration: `none`,
+        // }}
+        >
+          {'Space Out'}
+        </Link>
+    </h1>
+    <h1 style={{ margin: 0 }}>
+      <Link 
         to="/page-2/"
         className='Link' activeClassName=' isCurrent'
         // style={{

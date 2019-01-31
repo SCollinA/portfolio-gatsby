@@ -4,6 +4,7 @@ html, body, #___gatsby, #___gatsby > div {
 
 body {
     background-image: url('../images/the_universe.jpg');
+    background-size: cover;
 }
 
 a, .NavLink {
@@ -117,7 +118,7 @@ a:active, a:hover, .NavLink:hover {
 } */
 
 .ProjectDiv {
-    margin: 5% 0;
+    margin: 10% 0 80%;
     padding: 2% 0;
     background-color: whitesmoke;
     color: lightcoral;

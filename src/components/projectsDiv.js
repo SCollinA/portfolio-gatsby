@@ -8,12 +8,35 @@ export default function ProjectsDiv({images}) {
     return (
         <div className='ProjectsDiv'>
             <ProjectDiv 
+            title='Task Magic'
+            desc='An app built by Evan and Collin'
+            link='https://teetimes.collinargo.com'
+            >
+                <Img fluid={images[0].childImageSharp.fluid}/>
+            </ProjectDiv>
+            <ProjectDiv 
             title='Tee Times'
             desc='An app built by Evan and Collin'
             link='https://teetimes.collinargo.com'
             >
                 <Img fluid={images[0].childImageSharp.fluid}/>
             </ProjectDiv>
+            <ProjectDiv 
+            title='Fantasy Football Scheduler'
+            desc='An app built by Evan and Collin'
+            link='https://teetimes.collinargo.com'
+            >
+                <Img fluid={images[0].childImageSharp.fluid}/>
+            </ProjectDiv>
+            <a href='/SpaceOut'>
+                <ProjectDiv 
+                title='Space Out'
+                desc='An app built by Evan and Collin'
+                link='https://teetimes.collinargo.com'
+                >
+                    <Img fluid={images[0].childImageSharp.fluid}/>
+                </ProjectDiv>
+            </a>
         </div>
     )
 }
