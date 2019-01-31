@@ -3,11 +3,7 @@ import React from 'react'
 export default function ProjectDiv(props) {
     const {title, children, desc, link} = props
     return (
-        <div className='ProjectDiv'
-            style={{
-                backgroundColor: `lightcoral`,
-            }}
-        >
+        <div className='ProjectDiv'>
             {/* Title */}
             <h3>{title}</h3>
             {/* Image */}
