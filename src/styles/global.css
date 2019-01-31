@@ -134,7 +134,7 @@ a:active, a:hover, .NavLink:hover {
     margin: auto;
     max-width: 28%;
     padding: 5%;
-    background-color: rgb(225, 125, 125);
+    background-color: lightcoral;
 }
 
 .heroImage {
@@ -218,9 +218,10 @@ a:active, a:hover, .NavLink:hover {
 /* ========================== */
 .Footer {
     width: 100%;
-    padding: 1% 0;
+    padding: 1% 5%;
     background-color: lightcoral;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
@@ -238,6 +239,9 @@ a:active, a:hover, .NavLink:hover {
 }
 
 /* footer social media links */
-.Footer > .SocialMediaLinks > a {
-    padding: 0 20%!important;
+.Footer > .SocialMediaLinks {
+    flex: 1;
 }
+/* .Footer > .SocialMediaLinks > a {
+    padding: 0 20%!important;
+} */
