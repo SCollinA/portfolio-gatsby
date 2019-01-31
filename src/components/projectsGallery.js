@@ -22,7 +22,7 @@ export default function ProjectsGallery({images}) {
                     <Img fluid={images[1].childImageSharp.fluid}/>
                 </ProjectSample>
             </a>    
-            <a href='/FFSchedules'>
+            <a href='/FFScheduler'>
                 <ProjectSample 
                 title='Fantasy Football Scheduler'
                 descShort='Realistic fantasy football schedules'

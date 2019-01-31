@@ -26,6 +26,18 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
     <h1 style={{ margin: 0 }}>
+      <Link
+        to="/TaskMagic"
+        className='Link' activeClassName=' isCurrent'
+        // style={{
+        //   color: `white`,
+        //   textDecoration: `none`,
+        // }}
+      >
+        {'Task Magic'}
+      </Link>
+    </h1>
+    <h1 style={{ margin: 0 }}>
       <Link 
         to="/TeeTimes/"
         className='Link' activeClassName=' isCurrent'
@@ -35,6 +47,18 @@ const Header = ({ siteTitle }) => (
         // }}
         >
           {'Tee Times'}
+        </Link>
+    </h1>
+    <h1 style={{ margin: 0 }}>
+      <Link 
+        to="/FFScheduler"
+        className='Link' activeClassName=' isCurrent'
+        // style={{
+        //   color: `white`,
+        //   textDecoration: `none`,
+        // }}
+        >
+          {'FFScheduler'}
         </Link>
     </h1>
     <h1 style={{ margin: 0 }}>

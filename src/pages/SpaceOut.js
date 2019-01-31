@@ -8,7 +8,7 @@ import Project from '../components/project'
 
 const SpaceOut = ({data}) => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Space Out" />
     <Project
       title='Space Out'
       desc='This app uses a simple API called "lookup" to get info on space object locations which can then be used to determine visibility.'

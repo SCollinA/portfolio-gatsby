@@ -132,7 +132,9 @@ a:active, a:hover, .NavLink:hover {
 
 .heroTitle {
     margin: auto;
-    max-width: 15%;
+    max-width: 28%;
+    padding: 5%;
+    background-color: rgb(225, 125, 125);
 }
 
 .heroImage {

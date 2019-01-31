@@ -7,10 +7,7 @@ export default function HeroDiv() {
         <div className='heroDiv'>
             <div className='heroTitle'>
                 <h3>welcome to Collin's portfolio</h3>
-                <h3>welcome to Collin's portfolio</h3>
-                <h3>welcome to Collin's portfolio</h3>
-                <h3>welcome to Collin's portfolio</h3>
-                <h3>welcome to Collin's portfolio</h3>
+                <p>I'm a software developer from Atlanta. I built this site using Gatsby.js, which also introduced me to GraphQL. I'm always experimenting, so check back to see what I build next!</p>
             </div>
             <div className='heroImage'>
                 <StaticQuery
@@ -29,6 +26,6 @@ export default function HeroDiv() {
                     render={data => <Img fluid={data.file.childImageSharp.fluid} />}
                 />
             </div>
-      </div>
+        </div>
     )
 }

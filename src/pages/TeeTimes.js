@@ -8,7 +8,7 @@ import Project from '../components/project'
 
 const TeeTimes = ({data}) => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Tee Times" />
     <Project
       title='Tee Times'
       desc='This app was built for use at a country club by members and staff to make and change tee time reservations.'
