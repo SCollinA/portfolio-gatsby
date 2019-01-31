@@ -3,7 +3,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 // import NavLink from './navLink'
-import SocialMediaLinks from './socialMediaLinks';
 
 const Header = ({ siteTitle }) => (
   <div
@@ -50,7 +49,6 @@ const Header = ({ siteTitle }) => (
           {'Space Out'}
         </Link>
     </h1>
-    <SocialMediaLinks/>
   </div>
 )
 

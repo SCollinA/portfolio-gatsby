@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './footer'
 import './layout.css'
+import SocialMediaLinks from './socialMediaLinks';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -29,6 +30,7 @@ const Layout = ({ children }) => (
           //   // paddingTop: 0,
           // }}
         >
+          <SocialMediaLinks/>
           {children}
           <Footer />
         </div>
