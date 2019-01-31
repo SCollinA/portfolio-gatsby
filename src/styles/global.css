@@ -80,8 +80,9 @@ a:active, a:hover, .NavLink:hover {
 }
 
 /* Header social media links */
-.SocialMediaLinks > a {
-    padding: 0 10%;
+.Footer > .SocialMediaLinks > * {
+    margin: 0 5%;
+    padding: 0 5%;
 }
 
 .Content > .SocialMediaLinks {
@@ -243,7 +244,7 @@ a:active, a:hover, .NavLink:hover {
 }
 
 .Footer > * {
-    display: block;
+    /* display: block; */
     margin: unset;
     margin: auto;
     white-space: nowrap;
@@ -257,6 +258,7 @@ a:active, a:hover, .NavLink:hover {
 /* footer social media links */
 .Footer > .SocialMediaLinks {
     flex: 1;
+    display: flex;
 }
 /* .Footer > .SocialMediaLinks > a {
     padding: 0 20%!important;
