@@ -12,6 +12,10 @@ a, .NavLink {
     text-decoration: none;
 }
 
+.NavLink {
+    padding: 2% 10%;
+}
+
 a:active, a:hover, .NavLink:hover {
     color: whitesmoke!important;
     /* border-radius: 10%;
@@ -20,7 +24,6 @@ a:active, a:hover, .NavLink:hover {
 
 .isCurrent {
     color: lightcoral;
-    padding: 2% 10%;
     white-space: nowrap;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -65,9 +68,9 @@ a:active, a:hover, .NavLink:hover {
     text-align: center;
 }
 
-.Header > * {
+/* .Header > * {
     flex: 1;
-}
+} */
 
 .SocialMediaLinks {
     color: whitesmoke;
