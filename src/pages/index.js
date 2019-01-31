@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HeroDiv />
-    <ProjectsDiv images={[data.image1, data.image2, data.image3]}/>
+    {/* <ProjectsDiv images={[data.image1, data.image2, data.image3]}/> */}
   </Layout>
 )
 

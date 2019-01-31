@@ -23,8 +23,20 @@ const Header = ({ siteTitle }) => (
         //   textDecoration: `none`,
         // }}
       >
-        {siteTitle}
+        {'Home'}
       </Link>
+    </h1>
+    <h1 style={{ margin: 0 }}>
+      <Link 
+        to="/TeeTimes/"
+        className='Link' activeClassName=' isCurrent'
+        // style={{
+        //   color: `white`,
+        //   textDecoration: `none`,
+        // }}
+        >
+          {'Tee Times'}
+        </Link>
     </h1>
     <h1 style={{ margin: 0 }}>
       <Link 
@@ -36,18 +48,6 @@ const Header = ({ siteTitle }) => (
         // }}
         >
           {'Space Out'}
-        </Link>
-    </h1>
-    <h1 style={{ margin: 0 }}>
-      <Link 
-        to="/page-2/"
-        className='Link' activeClassName=' isCurrent'
-        // style={{
-        //   color: `white`,
-        //   textDecoration: `none`,
-        // }}
-        >
-          {'Go to page 2'}
         </Link>
     </h1>
     <SocialMediaLinks/>
