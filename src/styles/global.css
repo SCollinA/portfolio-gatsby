@@ -149,20 +149,6 @@ a:active, a:hover, .NavLink:hover {
     border-radius: 50%;
 }
 
-@media (max-width: 1000px) {
-    .heroDiv {
-        flex-direction: column;
-    }
-    
-    .heroTitle {
-        max-width: 75%;
-    }
-
-    .heroImage {
-        margin-top: 10%;
-    }
-}
-
 /* ========================== */
 /*      Project Things         */
 /* ========================== */
@@ -278,5 +264,23 @@ a:active, a:hover, .NavLink:hover {
 
     .Content {
         overflow: hidden;
+    }
+}
+
+@media (max-width: 1000px) {
+    .heroDiv {
+        flex-direction: column;
+    }
+    
+    .heroTitle {
+        max-width: 75%;
+    }
+
+    .heroImage {
+        margin-top: 10%;
+    }
+
+    .Project > div:nth-child(2) {
+        max-width: 75%;
     }
 }

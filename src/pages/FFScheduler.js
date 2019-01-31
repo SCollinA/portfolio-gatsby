@@ -15,7 +15,7 @@ const FFScheduler = ({data}) => (
       liveLink='https://FFScheduler.collinargo.com'
       gitHubLink='https://github.com/SCollinA/ff-schedule-maker'
     >
-      <Img fluid={data.image1.childImageSharp.fluid}/>
+      <Img fluid={data.image3.childImageSharp.fluid}/>
     </Project>
   </Layout>
 )
