@@ -81,12 +81,16 @@ a:active, a:hover, .NavLink:hover {
     overflow: auto;
 }
 
+.Content > * {
+    padding: 10%;
+}
+
 /* ========================== */
 /*      Hero Things         */
 /* ========================== */
 
 .heroDiv {
-    padding: 10%;
+    /* padding: 10%; */
     /* height: 100%; */
     width: 100%;
     display: flex;
@@ -118,6 +122,10 @@ a:active, a:hover, .NavLink:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.ProjectsGallery > * {
+    padding: 10%;
 }
 
 .Project {
