@@ -257,14 +257,14 @@ a:active, a:hover, .NavLink:hover {
 /* ========================== */
 
 @media (max-height: 750px), (max-width: 400px) {
-    /* .Layout {
-        overflow: auto;
-        height: unset;
+    .Layout {
+        overflow-y: auto;
+        display: inherit;
     }
 
     .Content {
         overflow: hidden;
-    } */
+    }
 }
 
 @media (max-width: 900px) {
