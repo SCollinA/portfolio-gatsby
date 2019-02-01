@@ -1,6 +1,6 @@
 html, body, #___gatsby, #___gatsby > div {
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 body {
@@ -111,7 +111,7 @@ a:active, a:hover, .NavLink:hover {
     /* width: 100%; */
     /* this hides the scrollbar */
     width: calc(100% + 20px);
-    overflow: auto;
+    overflow-y: auto;
     /* height: 90%; */
     flex: 1;
     /* display: flex;
@@ -256,18 +256,18 @@ a:active, a:hover, .NavLink:hover {
 /*      Media Query Things         */
 /* ========================== */
 
-@media (max-height: 1000px) {
-    .Layout {
+@media (max-height: 750px), (max-width: 400px) {
+    /* .Layout {
         overflow: auto;
         height: unset;
     }
 
     .Content {
         overflow: hidden;
-    }
+    } */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .heroDiv {
         flex-direction: column;
     }
