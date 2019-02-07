@@ -118,11 +118,7 @@ a:active, a:hover, .NavLink:hover {
     /* this hides the scrollbar */
     width: calc(100% + 15px);
     overflow-y: auto;
-    min-height: 100%;
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
 .Content > * {
@@ -256,6 +252,12 @@ a:active, a:hover, .NavLink:hover {
     align-items: center;
 }
 
+/* select footer after project */
+.Project + .Footer {
+    position: fixed;
+    bottom: 0;
+}
+
 .Footer > * {
     /* display: block; */
     margin: unset;
@@ -289,6 +291,11 @@ a:active, a:hover, .NavLink:hover {
 
     .Content {
         overflow: hidden;
+    }
+
+    .Project + .Footer {
+        position: relative;
+        
     }
 }
 
