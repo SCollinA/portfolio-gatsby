@@ -15,7 +15,16 @@ a, .NavLink {
 }
 
 .NavLink {
-    padding: 2% 10%;
+    padding: 2% 5%;
+    flex: 1;
+    white-space: nowrap;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(100, 200, 255, 0.25);
+}
+
+.NavLink > h1 {
+    margin: 0;
 }
 
 a:active, a:hover, .NavLink:hover {
@@ -27,9 +36,7 @@ a:active, a:hover, .NavLink:hover {
 .isCurrent {
     color: lightcoral;
     white-space: nowrap;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: rgba(100, 200, 255, 0.25);
+    background-color: rgba(255, 100, 100, 0.25);
 }
 
 /* NON-STANDARD DO NOT USE  */
@@ -110,7 +117,7 @@ a:active, a:hover, .NavLink:hover {
     color: white;
     /* width: 100%; */
     /* this hides the scrollbar */
-    width: calc(100% + 20px);
+    width: calc(100% + 15px);
     overflow-y: auto;
     /* height: 90%; */
     flex: 1;
@@ -282,5 +289,9 @@ a:active, a:hover, .NavLink:hover {
 
     .Project > div:nth-child(2) {
         max-width: 75%;
+    }
+
+    .NavLink {
+        border-radius: 20px;
     }
 }

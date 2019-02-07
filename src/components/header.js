@@ -4,14 +4,7 @@ import React from 'react'
 import NavLink from './navLink'
 
 const Header = ({ siteTitle }) => (
-  <div
-    className='Header'
-    style={{
-      // background: `rebeccapurple`,
-      // marginBottom: `1.45rem`,
-      padding: `1.45rem 1.0875rem`,
-    }}
-  >
+  <div className='Header'>
     <NavLink to='/' text='Home'/>
     <NavLink to='/TaskMagic' text='Task Magic'/>
     <NavLink to='/TeeTimes' text='Tee Times'/>
