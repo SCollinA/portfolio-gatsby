@@ -6,13 +6,13 @@ export default function SocialMediaLinks(props) {
     return (
         <div className='SocialMediaLinks'>
             <a rel='noopener noreferrer' target='_blank' href='https://www.linkedin.com/in/scollinargo/'>
-                <FontAwesomeIcon icon={['fab', 'linkedin']}/>
+                <FontAwesomeIcon size='2x' icon={['fab', 'linkedin']}/>
             </a>
             <a rel='noopener noreferrer' target='_blank' href='https://twitter.com/SCollinArgo'>
-                <FontAwesomeIcon icon={['fab', 'twitter']}/>
+                <FontAwesomeIcon size='2x' icon={['fab', 'twitter']}/>
             </a>
             <a rel='noopener noreferrer' target='_blank' href='https://github.com/SCollinA'>
-                <FontAwesomeIcon icon={['fab', 'github']}/>
+                <FontAwesomeIcon size='2x' icon={['fab', 'github']}/>
             </a>
         </div>
     )

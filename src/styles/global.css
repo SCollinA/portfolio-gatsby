@@ -282,6 +282,12 @@ a:active, a:hover, .NavLink:hover {
 /* ========================== */
 /*      Media Query Things         */
 /* ========================== */
+@media (max-height: 700px) {
+    .Project + .Footer {
+        position: relative;
+    }
+}
+
 
 @media (max-height: 600px), (max-width: 400px) {
     .Layout {
@@ -293,9 +299,8 @@ a:active, a:hover, .NavLink:hover {
         overflow: hidden;
     }
 
-    .Project + .Footer {
-        position: relative;
-        
+    .fa-2x {
+        font-size: 1em;
     }
 }
 
