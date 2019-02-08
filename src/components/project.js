@@ -2,6 +2,8 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 export default function Project({title, children, desc, liveLink, gitHubLink, data}) {
+    const { markdownRemark } = data // data.markdownRemark holds our post data
+    const { frontmatter, html } = markdownRemark
     return (
         <div className='Project'>
             {/* Title */}
