@@ -1,3 +1,9 @@
+---
+path: "/blog/my-second-post"
+date: "2017-11-07"
+title: "My first blog post"
+---
+
 # Space App
 ### Idea Origin
 We love space, and one of our favorite things to do is go outside at night and look at the stars and wonder what is out there. So we designed an app to tell us what is out there and when we can see it.

@@ -1,3 +1,9 @@
+---
+path: "/blog/my-first-post"
+date: "2017-11-07"
+title: "My first blog post"
+---
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

@@ -1,3 +1,9 @@
+---
+path: "/blog/my-sixth-post"
+date: "2017-11-07"
+title: "My first blog post"
+---
+
 # Tee Times App
 ## Origin Story
 My partner, Collin Argo, Co-founder of Tee Times and I both realized we had a passion not only for web developing, but also when it came to golfing. We came up with this idea thanks to Hoover Country Club based in Birmingham, Alabma. Hoover Country Club currently does not have a way to set a tee time's online so we jumped at the opportunity of trying to make that possible. This app allows for users to log in, set and edit teetimes with specific options(walk/ride, etc) to choose from. This app also allows for users to add other members as friends and add them to future tee times.
