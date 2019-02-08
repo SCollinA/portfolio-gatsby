@@ -1,7 +1,7 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
-export default function Project(props) {
-    const {title, children, desc, liveLink, gitHubLink} = props
+export default function Project({title, children, desc, liveLink, gitHubLink, data}) {
     return (
         <div className='Project'>
             {/* Title */}
