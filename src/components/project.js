@@ -14,7 +14,7 @@ export default function Project(props) {
             </div>
             <div className='projectLinks'>
                 {/* Link */}
-                <a rel='noopener noreferrer' target='_blank' href={liveLink}>Live Demo!</a>
+                {liveLink && <a rel='noopener noreferrer' target='_blank' href={liveLink}>Live Demo!</a>}
                 <a rel='noopener noreferrer' target='_blank' href={gitHubLink}>GitHub Repo!</a>
             </div>
         </div>

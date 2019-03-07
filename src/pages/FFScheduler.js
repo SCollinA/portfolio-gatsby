@@ -12,7 +12,7 @@ const FFScheduler = ({data}) => (
     <Project
       title="Fantasy Football Scheduler"
       desc='This app was originally written for iOS, then migrated to a PERN stack. Its a todo app with nested todos ordered by priority.'
-      liveLink='https://FFScheduler.collinargo.com'
+      // liveLink='https://FFScheduler.collinargo.com'
       gitHubLink='https://github.com/SCollinA/ff-schedule-maker'
     >
       <Img fluid={data.image3.childImageSharp.fluid}/>
