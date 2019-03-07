@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 export default function Project({title, children, desc, liveLink, gitHubLink, data}) {
+    console.log(data)
     const { markdownRemark } = data // data.markdownRemark holds our post data
     const { frontmatter, html } = markdownRemark
     return (
@@ -10,9 +11,15 @@ export default function Project({title, children, desc, liveLink, gitHubLink, da
             <h3>{title}</h3>
             <div className='projectContents'>
                 {/* Image */}
-                {children}
+                {/* {children} */}
                 {/* Description */}
-                <p>{desc}</p>
+                {/* <p>{desc}</p> */}
+                <h1>{frontmatter.title}</h1>
+                <h2>{frontmatter.date}</h2>
+                <div
+                className="blog-post-content"
+                dangerouslySetInnerHTML={{ __html: html }}
+                />
             </div>
             <div className='projectLinks'>
                 {/* Link */}
@@ -22,3 +29,16 @@ export default function Project({title, children, desc, liveLink, gitHubLink, da
         </div>
     )
 }
+
+export const pageQuery = graphql`
+  query($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        path
+        title
+      }
+    }
+  }
+`
