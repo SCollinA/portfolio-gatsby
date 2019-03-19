@@ -12,7 +12,7 @@ const SpaceOut = ({data}) => (
     <Project
       title='Space Out'
       desc='This app uses a simple API called "lookUP" to get info on space object locations which can then be used to determine visibility.'
-      liveLink='https://myspaceapp.collinargo.com'
+      liveLink='https://spaceout.collinargo.com'
       gitHubLink='https://github.com/SCollinA/my-space-app'
     >
       <Img fluid={data.image4.childImageSharp.fluid}/>
