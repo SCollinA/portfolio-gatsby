@@ -293,6 +293,7 @@ a:active, a:hover, .NavLink:hover {
     .Layout {
         overflow-y: auto;
         display: inherit;
+        width: calc(100% + 15px);
     }
 
     .Content {
